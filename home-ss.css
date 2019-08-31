@@ -1,0 +1,81 @@
+
+
+
+body{
+
+	background-color: rgba(36, 96, 104,0.3);
+}
+
+header{
+
+	
+	text-align: justify;
+}
+
+li{
+	color: black;
+	display: inline-block;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 45px;
+}
+
+.nav-item{
+	font-size: 20px;
+	border-style: hidden; 
+	margin : 7px;
+	border-color: rgba(170, 121, 57,0.5);
+}
+
+.nav-link{
+
+	color: rgb(136, 45, 96);
+}
+
+p{
+font-family: 'Libre Baskerville', serif;
+font-size: 20px;
+}
+
+@keyframes heading{
+
+	0%{background-color: rgba(157, 52, 75,0.6);}
+	25%{background-color: rgba(42, 77, 110,0.7);}
+	50%{background-color: rgba(40, 120, 77,0.6);}
+	100%{background-color: rgba(170, 132, 57,0.5);}
+}
+h1{
+	border-style: groove;
+	border-color: rgb(62, 49, 117);
+	font-family: 'Germania One', cursive;
+	font-size: 130px;
+	color: rgba(157, 52, 75,0.6);
+	animation-name: heading;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+
+
+
+img{width: 200px;
+	height: 200px;}
+
+img:hover{
+	animation-name: shake;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes shake{
+ 0% { transform: translate(1px, 1px) ; }
+  10% { transform: translate(-1px, -2px) ; }
+  20% { transform: translate(-3px, 0px) ; }
+  30% { transform: translate(3px, 2px); }
+  40% { transform: translate(1px, -1px) ; }
+  50% { transform: translate(-1px, 2px); }
+  60% { transform: translate(-3px, 1px); }
+  70% { transform: translate(3px, 1px) ; }
+  80% { transform: translate(-1px, -1px); }
+  90% { transform: translate(1px, 2px) ; }
+  100% { transform: translate(1px, -2px) ; }
+}

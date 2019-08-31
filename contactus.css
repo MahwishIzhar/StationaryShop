@@ -1,0 +1,43 @@
+body{
+
+	background-color: rgba(36, 96, 104,0.3);
+}
+
+header{
+
+	font-size: 20px;
+	text-align: justify;
+}
+
+li{
+	color: black;
+	display: inline-block;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 45px;
+}
+
+.nav-item{
+
+	border-style: outset; 
+	margin : 5px;
+	border-color: rgba(170, 121, 57,0.5);
+}
+
+.nav-link{
+
+	color: rgb(136, 45, 96);
+}
+
+div{
+
+	font-family: 'Libre Baskerville', serif;
+	font-size: 25px;
+}
+
+
+.form-control{
+
+	border-style: solid;
+	border-color: black;
+}
+
